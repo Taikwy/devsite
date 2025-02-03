@@ -23,7 +23,7 @@
         <h3>this devlog</h3>
         <hr>
         <!-- <br> -->
-        I started this project last year at the start of April 2024. I haven't been working nonstop for the past 10 months, but it's still been nearly a whole year and I feel like my progress isn't enough. Even though I consider the project's current state to be the best it's ever been, there are still too many of uncertainties. I want to settle on a visual style for my game, which will be the focus of today's devlog.
+        I started this project last year at the start of April 2024. I haven't been working nonstop for the past 10 months, but it's still been nearly a whole year and I feel like my progress hasn't been enough. Even though I consider the project's current state to be the best it's ever been, there are still too many of uncertainties. I want to settle on a visual style for my game, which will be the topic of today's devlog.
         <br><br>
         <!-- <br>
         <h3>current state</h3>
@@ -32,34 +32,34 @@
         <br><br>
         <!-- What have I been working on? -->
         <!-- Recently I took a break to participate in the <a href="https://itch.io/jam/pirate" target="_blank">Pirate Software Game Jam 16</a>. Before that, I had started overhauling the graphics for the game. I was unsatisfied with how things looked. -->
-        Since I'm both the artist and the programmer, the assets in the project so far were <i>mostly</i> placeholders. With the game's systems and mechanics complete, I could finally start on the graphics. I was unsatisfied with pretty much <i>everything</i>. I wanted to completely overhaul the visuals of the game.
+        Since I'm making this game solo, I'm both the artist and the programmer. While I was coding, the assets in the project were <i>mostly</i> placeholders. With the game's systems and mechanics complete, I could finally start on the graphics. I was unsatisfied with pretty much everything. I wanted to <i>completely</i> overhaul the visuals of the game.
         <br><br><br>
         
 
         <h3>adding effects</h3>
         <hr>
-        I'll be completely honest - <i>I'm not very skilled at pixel art</i>. My workflow is obscenely slow and I have next to no experience with animations. The hit spark effects I had created for the prototype are extremely short and simple. Yet they <i>still</i> took an embarrassingly large amount of effort.
+        I'll be completely honest - <i>I'm not very skilled at pixel art</i>. My workflow is obscenely slow and I have next to no experience with animations. These little explosion I created for the prototype are very short and simple. Yet they <i>still</i> took an embarrassingly large amount of effort.
         <br><br>
         <!-- <img src="media/images/circle.gif" alt="Gif of circle effect"> -->
         <img src="media/images/explosion.gif" alt="Gif of explosion effect">
         <br>
-        Instead I thought it'd be more effective to add visual effects instead of only focusing on drawing better pixel art. It would <i>(hopefully)</i> be just as effective and more time efficient. The assets in the prototype are very basic, but all the extra little effects and animatons <i>already</i> added a lot to how the game looks.
+        Instead, I think it'd be more effective to add visual effects rather than only focusing on drawing better pixel art. It would <i>(hopefully)</i> be just as effective in making the game look nicer and more time efficient. This is something I was already kind of doing. The assets in the prototype are very basic, but all the extra little effects and animatons <i>already</i> added a lot to how the game looks.
         <br><br>
         <video autoplay muted loop>
           <source src="media/videos/prototype-gameplay.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video> 
         <br>
-        I made a list of visual effects I wanted to try and create. Things like moving grass, windy foliage, and lighting/bloom effects. This meant dealing with shaders, something I have <i>literally</i> zero experience with. Usually I'm a very avid planner. I like knowing exactly what I'm doing, why I'm doing it, and how everything connects together. Unfortunately I also tend to overthink things. In this case, since I would already be going out of my comfort zone, I tried to only focus on the things I would immediately be working on - <i>ignoring</i> the big picture as much as possible.
+        I made a list of visual effects I wanted to try and create - interactive grass, moving foliage, etc. Many of these things required dealing with shaders, something I have <i>literally</i> zero experience with. Usually I'm a very avid planner. I like knowing exactly what I'm doing, why I'm doing it, and how everything connects together. Unfortunately I also tend to overthink things. In this case, since I was <i>already</i> going out of my comfort zone, I tried to focus only on the things I was immediately working on - ignoring the big picture as much as possible.
         <br><br>
-        For the grass, I searched for some tutorials online and came across a fantastic <a href="https://www.youtube.com/watch?v=ecYWvfMoRIM" target="_blank">video</a> about interactive foliage I followed the video, downloaded the package, and was eventually able to get things working <i>(after a bit of tweaking and debugging)</i>.
+        For the grass, I searched for some tutorials online and came across a fantastic <a href="https://www.youtube.com/watch?v=ecYWvfMoRIM" target="_blank">video</a> about interactive foliage. I followed the video, downloaded the package, and was eventually able to get things working <i>(after a bit of tweaking and debugging)</i>.
         <br><br>
         <video autoplay muted loop>
           <source src="media/videos/grass shader.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video> 
         <br>
-        Next I wanted to add a tree. I remember seeing a <a href="https://x.com/Gagonfe/status/1719117230145745391" target="_blank">tweet</a> from a game by <a href="https://gagonfe.dev/" target="_blank">Gagonfe</a> that had a really cool rippling effect for the tree's leaves. It made me want to try and create something similar. But first I had to draw a tree. The last time I made pixel art of a tree was <i>years</i> ago - and it didn't turn out great.
+        Next, I wanted to add a tree. I remember seeing a <a href="https://x.com/Gagonfe/status/1719117230145745391" target="_blank">tweet</a> from a game by <a href="https://gagonfe.dev/" target="_blank">Gagonfe</a> that had a really cool rippling effect for the tree's leaves. It made me want to try creating something similar. But first I had to draw a tree. The last time I made pixel art of a tree was <i>years</i> ago - and it turned out pretty lame.
         <br><br>
         <img src="media/images/old tree.png" width="20%" alt="Old tree">
         <br>
@@ -75,14 +75,14 @@
           Your browser does not support the video tag.
         </video> 
         <br>
-        Now that there were things as big as trees in the game, I also quickly implemented transparency for when the player walks behind other objects. This effect was pretty easy to make, and looks nice too.
+        Now that there were things as big as trees in the game, I also quickly added a transparency effect for when the player walks behind other objects. This was pretty easy to make, and looks nice too.
         <br><br>
         <video autoplay muted loop>
           <source src="media/videos/tree transparency.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video> 
         <br>
-        After this I took a break to participate in the <a href="https://itch.io/jam/pirate" target="_blank">Pirate Software Game Jam 16</a> with a <a href="https://x.com/jjungus10" target="_blank">friend</a>. You can play our submission <a href="https://taikwy.itch.io/gong" target="_blank">here</a>!
+        This is when I took a break to participate in the <a href="https://itch.io/jam/pirate" target="_blank">Pirate Software Game Jam 16</a> with a <a href="https://x.com/jjungus10" target="_blank">friend</a>. You can play our submission <a href="https://taikwy.itch.io/gong" target="_blank">here</a>!
         <br><br><br>
 
 
@@ -95,10 +95,10 @@
         <br><br>
         <div class="tweets">
           <blockquote class="twitter-tweet" width = "50%">
-            <a href="https://twitter.com/Glphed/status/1719171512844894260" target="_blank"></a>
+            <a href="https://twitter.com/nao_peca/status/1883309345485795654" target="_blank"></a>
           </blockquote>
           <blockquote class="twitter-tweet" width = "50%">
-            <a href="https://twitter.com/nao_peca/status/1883309345485795654" target="_blank"></a>
+            <a href="https://twitter.com/Glphed/status/1719171512844894260" target="_blank"></a>
           </blockquote>
           <blockquote class="twitter-tweet" width = "50%">
             <a href="https://twitter.com/vidhvatm/status/1830932921987064004" target="_blank"></a>
@@ -109,28 +109,30 @@
         </div>
         
         <br>
-        It makes me want to improve the visuals of my own game. But how could I ever achieve that? Developing skill and ability takes time. I cannot become become a better pixel artist overnight. I cannot become a better animator overnight. What I <i>can</i> do, is relying on my creativity.
+        It makes me want to improve the visuals of my own game. But how could I ever achieve that? Developing skill and ability takes time. I cannot become become a better pixel artist overnight. I cannot become a better animator overnight. What I <i>can</i> do, is rely on my own creativity.
         <br><br><br>
 
 
 
         <h3>visual direction</h3>
         <hr>
-        I want to make my game stand out - to not just be visually appealing, but visually <i>memorable</i>. I've spent a lot of time this past week thinking about my game's art direction. I haven't settled on anything quite yet, but there are a couple of things I have in mind that I'm going to focus on as I continue to work on my game's visuals.
+        I want to make my game stand out - to not just be visually appealing, but visually <i>memorable</i>. I've spent a lot of time this past week thinking about my game's art direction. I haven't settled on anything quite yet, but there are a couple of things I have in mind that I'll try to focus on as I continue to work on my game's visuals.
         <br><br>
         A <i>distinct</i> artstyle.<br>
-        The tree I drew is quite stylized due to the strong shapes and sillhouettes I used. Future assets should be equally stylized which will add to how unique the game looks. The stylization should also be easier for me to make assets following the same artstyle.
+        The tree I drew is quite stylized due to the strong shapes and sillhouettes used. Future assets can be equally stylized which will add to how unique the game looks. The stylization should also make it easier for me to make assets following the same artstyle.
         <br><br>
         A <i>strong</i> color palette.<br>
-        I don't have much experience with making my own palette, so following some sort of theme should cover that up. My game could have a main color like the Persona games or just follow a specific color scheme like Hades.
+        I don't have that much experience with making my own palette, so following some sort of theme should help a lot. My game could have a central color like the Persona games or just follow a specific color scheme like Hades.
         <br><br>
         A <i>palpable</i> atmosphere.<br>
-        If a game's visuals can evoke feeling in the player, it becomes that much more interesting. Games like Eastward and Inscryption have an incredible sense of atmosphere, and their already good looking graphics are enhanced that even more. Honestly I don't know how I'll achieve this, but I will try nonetheless.
+        If a game's visuals can evoke feeling in the player, it becomes that much more interesting. Games like Eastward and Inscryption have an incredible sense of atmosphere, and their already good looking graphics are enhanced that much more. Honestly I don't know how I'll achieve this, but I will try nonetheless.
         <br><br><br><br>
         <hr><br>
-        I know this all seems really vague and ambiguous. Have I actually come any closer to making my game look better? I just really can't put what I'm envisioning into words. Hopefully writing these devlogs will help my ideas become clearer further down the line. Until then, there's nothing else for me to do but to continue working on my game.
+        This all seems really vague and ambiguous. Have I actually come any closer to making my game look better? Hopefully writing these devlogs will help my ideas become clearer further down the line, but I just can't put what I'm envisioning into words at the moment.
+        <br><br>
+        Until then, there's nothing else for me to do but to lock in, and continue working on my game.
         
-        <br><br><br>
+        <br><br><br><br>
         <i>thanks for reading :)</i>
         <br><br><br><br>
         

@@ -17,6 +17,9 @@
         width: 90%;
     }
   }
+  html {
+    scroll-behavior: smooth;
+  }
   a {
     font-weight: 500;
     color: #4800ff;
